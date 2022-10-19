@@ -48,7 +48,7 @@ class ProductController extends Controller
                     "original" => $product->price,
                     "final" => $finalPrice,
                     "discount_percentage" => $discountPercentage,
-                    "currency" => "EUR",
+                    "currency" => "EUR"
                 ]
             ]);
         }
